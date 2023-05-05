@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "description": "a personal portfolio made with fastify and svelte",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HBuminY/portfolio.git"
+  },
+  "author": "HBuminY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HBuminY/portfolio/issues"
+  },
+  "homepage": "https://github.com/HBuminY/portfolio#readme",
+  "dependencies": {
+    "@fastify/static": "^6.10.1",
+    "fastify": "^4.17.0",
+    "nodemon": "^2.0.22"
+  }
+}
