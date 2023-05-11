@@ -1,3 +1,6 @@
+const fs = require('fs');
+
+
 /**
  * Encapsulates the routes
  * @param {FastifyInstance} fastify  Encapsulated Fastify Instance
@@ -5,7 +8,10 @@
  */
 async function routes (fastify, options) {
   fastify.get('/', async (request, reply) => {
-    return "Hello World!"
+    filePath='./svelte_view/index.html';
+    const stream = fs.createReadStream(filePath, 'utf8')
+    reply.header('Content-Type', 'text/html')
+    return reply.send(stream)
   });
 }
 
