@@ -25,7 +25,7 @@
 </script>
 
 
-<div class="w-3/4 py-[30vh] gap-[40vh] flex flex-col place-content-around transition-opacity duration-1000 {clazz} relative">
+<div class="w-full lg:w-3/4 py-[30vh] gap-[40vh] flex flex-col place-content-around transition-opacity duration-1000 {clazz} relative">
     <IntersectionAnim let:intersecting>
     <Island clazz={borderGradient} {bgColor}>
             <div class="p-3 px-10 flex flex-row justify-end">

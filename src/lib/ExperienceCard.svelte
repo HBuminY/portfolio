@@ -16,14 +16,14 @@
             <h1 class="text-lg font-bold drop-shadow-lg underline decoration-2">
                 <slot name="title"/>
             </h1>
-            <div class="flex flex-row p-5 gap-3">
+            <div class="flex flex-col lg:flex-row p-5 gap-6 lg:gap-3">
                 <div class="flex flex-col flex-shrink-0 justify-between">
                     <ul class="list-disc">
                         <p class="mb-2 text-md font-semibold underline">This task required qualities like:</p>
                         <slot name="qualities"/>
                     </ul>
                     
-                    <a class="rounded-lg bg-gradient-to-tr from-pink-400 to-purple-400 font-semibold overflow-hidden" href="{hrefLink}">
+                    <a class="rounded-lg bg-gradient-to-tr from-pink-400 to-purple-400 font-semibold overflow-hidden mt-6 lg:mt-0" href="{hrefLink}">
                         <div class="w-full h-full hover:bg-purple-500 hover:bg-opacity-40 transition-colors">
                             More information
                         </div>
