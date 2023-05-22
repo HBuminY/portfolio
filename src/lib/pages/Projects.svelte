@@ -17,7 +17,7 @@
         {
             name:"Wanderstone",
             link:"/wanderstone",
-            img:"placeholder.webp",
+            img:"wanderstone_mm.webp",
             description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores cumque accusantium itaque, vitae nobis qui mollitia nemo natus a. Similique autem aspernatur aliquid sunt commodi impedit, iusto porro voluptatum non!"
         },
         {
