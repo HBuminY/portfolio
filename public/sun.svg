@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="75.052284mm"
+   height="75.052277mm"
+   viewBox="0 0 75.052284 75.052277"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="bitmap.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-45.668408,-92.489835)">
+    <circle
+       style="fill:#ffc922;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;paint-order:markers fill stroke"
+       id="path788"
+       cx="83.658409"
+       cy="130.088"
+       r="21.549606" />
+    <rect
+       style="fill:#ffc922;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;paint-order:markers fill stroke"
+       id="rect898"
+       width="3.9181118"
+       height="11.101311"
+       x="127.9263"
+       y="-120.22068"
+       ry="2.4378994"
+       inkscape:transform-center-x="-31.475484"
+       inkscape:transform-center-y="-0.13060807"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#ffc922;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;paint-order:markers fill stroke"
+       id="rect1008"
+       width="3.9181118"
+       height="11.101311"
+       x="31.018082"
+       y="-187.78873"
+       ry="2.4378994"
+       inkscape:transform-center-x="-22.348878"
+       inkscape:transform-center-y="22.16417"
+       transform="rotate(135)" />
+    <rect
+       style="fill:#ffc922;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;paint-order:markers fill stroke"
+       id="rect1010"
+       width="3.9181118"
+       height="11.101311"
+       x="-85.284203"
+       y="-167.0421"
+       ry="2.4378994"
+       inkscape:transform-center-x="-0.13060617"
+       inkscape:transform-center-y="31.47548"
+       transform="scale(-1)" />
+    <rect
+       style="fill:#ffc922;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;paint-order:markers fill stroke"
+       id="rect1012"
+       width="3.9181118"
+       height="11.101311"
+       x="-152.85225"
+       y="-70.133881"
+       ry="2.4378994"
+       inkscape:transform-center-x="22.164177"
+       inkscape:transform-center-y="22.348873"
+       transform="rotate(-135)" />
+    <rect
+       style="fill:#ffc922;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;paint-order:markers fill stroke"
+       id="rect1014"
+       width="3.9181118"
+       height="11.101311"
+       x="-132.10562"
+       y="46.168407"
+       ry="2.4378994"
+       inkscape:transform-center-x="31.475478"
+       inkscape:transform-center-y="0.13060173"
+       transform="rotate(-90)" />
+    <rect
+       style="fill:#ffc922;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;paint-order:markers fill stroke"
+       id="rect1016"
+       width="3.9181118"
+       height="11.101311"
+       x="-35.197403"
+       y="113.73646"
+       ry="2.4378994"
+       inkscape:transform-center-x="22.348875"
+       inkscape:transform-center-y="-22.164176"
+       transform="rotate(-45)" />
+    <rect
+       style="fill:#ffc922;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;paint-order:markers fill stroke"
+       id="rect1018"
+       width="3.9181118"
+       height="11.101311"
+       x="81.104881"
+       y="92.98983"
+       ry="2.4378994"
+       inkscape:transform-center-x="0.13060386"
+       inkscape:transform-center-y="-31.475478" />
+    <rect
+       style="fill:#ffc922;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;paint-order:markers fill stroke"
+       id="rect1020"
+       width="3.9181118"
+       height="11.101311"
+       x="148.67293"
+       y="-3.9183881"
+       ry="2.4378994"
+       inkscape:transform-center-x="-22.164169"
+       inkscape:transform-center-y="-22.348879"
+       transform="rotate(45)" />
+  </g>
+</svg>

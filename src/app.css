@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Press+Start+2P&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        background-color: #aea6bf;
+        @apply overflow-hidden transition-colors duration-700;
+    }
+    body:after{
+        display:none;
+        content: url("/navbarbg.webp") url("/navbarbg_page2.webp") url("/navbarbg_page3.webp");
+    }
+}
+
+@layer components{
+    .active{
+        @apply bg-skypink-dark bg-opacity-60 hover:bg-purple-950
+    }
+}
+
+.translate-x-to-center{
+    transform: translate(-50%);
+}
+
+.bg-sunnycolor{
+    background-color: #fed7aa;
+}
+
+.bg-mountain{
+    background-color: #ecfeff;
+}
+
+.bg-sakura {
+    background-image: url("/navbarbg.webp");
+}
+
+.bg-sunset {
+    background-image: url("/navbarbg_page2.webp");
+}
+
+.bg-night {
+    background-image: url("/navbarbg_page3.webp");
+}
+
+.transition-backrgound{
+    -webkit-transition: background-image 1s ease-in-out;
+    transition: background-image 1s ease-in-out;
+}
+
+/* width */
+::-webkit-scrollbar {
+    @apply w-2
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    @apply bg-none
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    @apply rounded bg-skypink
+}
