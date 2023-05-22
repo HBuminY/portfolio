@@ -45,7 +45,7 @@
 </script>
 
 <div
-    class="w-3/4 py-[30vh] gap-[40vh] flex flex-col place-content-around transition-opacity duration-1000 {clazz} relative"
+    class="w-full lg:w-3/4 py-[30vh] gap-[40vh] flex flex-col place-content-around transition-opacity duration-1000 {clazz} relative"
 >
     <Island clazz={borderGradient} {bgColor} snap={false}>
         <div
