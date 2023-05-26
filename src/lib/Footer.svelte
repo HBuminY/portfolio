@@ -4,6 +4,6 @@
 
         </div>
 
-        <p class="w-full text-center p-2">Made with Svelte.js, TailwindCSS, Fastify.js and love! - by. Hulusi Bumin Yalçın.</p>
+        <p class="w-full text-center p-2 mb-5">Made with Svelte.js, TailwindCSS - by. Hulusi Bumin Yalçın.</p>
     </div>
 </div>

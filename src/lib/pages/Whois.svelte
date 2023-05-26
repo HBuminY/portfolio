@@ -5,6 +5,7 @@
     import ExperienceCard from "../ExperienceCard.svelte";
     import SkillElement from "../skillElement.svelte";
     import IntersectionAnim from "../intersectionAnim.svelte";
+    import { link } from "svelte-spa-router";
 
     let clazz="opacity-0";
 
@@ -24,8 +25,13 @@
     let bgColor = "bg-slate-200";
 </script>
 
+<svelte:head>
+    <link rel="preload" as="image" href="/myphoto.jpg"/>
+</svelte:head>
 
 <div class="w-full lg:w-3/4 py-[30vh] gap-[40vh] flex flex-col place-content-around transition-opacity duration-1000 {clazz} relative">
+    
+
     <IntersectionAnim let:intersecting>
     <Island clazz={borderGradient} {bgColor}>
             <div class="p-3 px-10 flex flex-row justify-end">

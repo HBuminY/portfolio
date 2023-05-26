@@ -8,6 +8,12 @@
     ];
 </script>
 
+<svelte:head>
+    <link rel="preload" as="image" href="/navbarbg.webp"/>
+    <link rel="preload" as="image" href="/navbarbg_page2.webp"/>
+    <link rel="preload" as="image" href="/navbarbg_page3.webp"/>
+</svelte:head>
+
 <div class="m-0 p-0 sticky transition top-0 z-50">
     <ul
         class="

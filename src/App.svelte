@@ -68,7 +68,7 @@
 {#if showPage}
     <div 
         id="generalContainer"
-        class="container fixed top-0 left-0 h-screen w-full overflow-auto lg:snap-y snap-mandatory"
+        class="fixed top-0 left-0 h-screen w-full overflow-auto lg:snap-y snap-mandatory"
         transition:fade
     >
     
