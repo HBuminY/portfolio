@@ -1,10 +1,8 @@
 <script>
-    import IntersectionAnim from "./intersectionAnim.svelte";
     export let img="/placeholder.webp"
 </script>
 
-<IntersectionAnim let:intersecting>
-<div class="bg-gradient-to-r from-slate-400 to-blue-950 rounded p-1 shadow-lg flex snap-center duration-300 {intersecting?"blur-0":"blur-sm"}">
+<div class="bg-gradient-to-r from-slate-400 to-blue-950 rounded p-1 shadow-lg flex snap-center duration-300">
     <div class="bg-gradient-to-r from-slate-400 to-blue-950 flex lg:flex-row flex-col">
 
         <div class="bg-slate-500 mx-auto rounded-full lg:w-1/5 w-4/5 aspect-none flex-shrink-0 flex lg:flex-col flex-row justify-center p-5">
@@ -18,4 +16,3 @@
 
     </div>
 </div>
-</IntersectionAnim>

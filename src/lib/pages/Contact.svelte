@@ -54,7 +54,7 @@
             {#each contactLinks as { name, link, action, title }}
                 <div class="bg-gradient-to-tr p-2 w-full rounded snap-center">
                     <div class="bg-sunnycolor w-full h-full rounded p-2">
-                        <h1 class="text-lg text-center font-bold">{name} :</h1>
+                        <h1 class="text-lg text-center font-bold text-orange-950">{name} :</h1>
 
                         <div class="text-white text-center mx-auto bg-gradient-to-r rounded-md -translate-x-2 hover:translate-x-0 transition-transform ">
 
