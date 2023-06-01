@@ -1,7 +1,7 @@
 <script>
     import Island from "../Island.svelte";
     import { onMount } from "svelte";
-    import Lorem from "../Lorem.svelte";
+    import ProjectElement from "../projectElement.svelte";
 
     let clazz="opacity-0";
 
@@ -35,16 +35,18 @@
 >
     <Island clazz={borderGradient} {bgColor} snap={false}>
         <div
-            class="relative flex flex-col h-full w-full p-4 justify-center gap-7 from-orange-700 to-orange-200"
+            class="relative flex flex-col h-full w-full p-4 justify-center gap-7 "
         >
             {#each projectLinks as { name, link, description, img }}
-                <div class="flex flex-col snap-center">
-                    <div><a href={link}><h1>{name}</h1></a></div>
-                    <div class="flex flex-col lg:flex-row">
-                        <div><img src={img} alt="some project"></div>
-                        <div><p>{description}</p></div>
-                    </div>
-                </div>
+                <ProjectElement img={img}>
+                    <span slot="title">
+                        <a href={link}>{name}</a>
+                    </span>
+                    
+                    <span slot="description">
+                        {description}
+                    </span>
+                </ProjectElement>
             {/each}
         </div>
     </Island>
